@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxfilmutleie2.HelloController">
+   <children>
+      <Label layoutX="129.0" layoutY="56.0" prefHeight="27.0" prefWidth="115.0" text="Filmutleie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="98.0" text="Kundenavn" />
+      <Label layoutX="129.0" layoutY="138.0" text="Kundes telefonnr" />
+      <Label layoutX="129.0" layoutY="183.0" text="Filmtittel" />
+      <Label fx:id="lblOversikt" alignment="TOP_LEFT" layoutX="129.0" layoutY="261.0" prefHeight="239.0" prefWidth="289.0" text="overssikt over utleie" />
+      <TextField fx:id="lblKundenavn" layoutX="244.0" layoutY="94.0" />
+      <TextField fx:id="lblTelefonnr" layoutX="244.0" layoutY="134.0" />
+      <TextField fx:id="lblFilmtittel" layoutX="244.0" layoutY="179.0" />
+      <Button layoutX="208.0" layoutY="231.0" mnemonicParsing="false" onAction="#btnLeiUt" text="Lei ut" />
+      <Button layoutX="287.0" layoutY="231.0" mnemonicParsing="false" onAction="#btnLeverinn" text="Lever inn" />
+      <Button layoutX="386.0" layoutY="231.0" mnemonicParsing="false" onAction="#btnVisutleie" text="Vis utleie" />
+   </children>
+</AnchorPane>
